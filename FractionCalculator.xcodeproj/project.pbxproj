@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8245CBFA2158380900AC9DDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8245CBF92158380900AC9DDD /* main.m */; };
+		8245CC012158382300AC9DDD /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8245CC002158382300AC9DDD /* Fraction.m */; };
+		8245CC042158384F00AC9DDD /* FractionCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8245CC032158384F00AC9DDD /* FractionCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		8245CBF62158380900AC9DDD /* FractionCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FractionCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
 		8245CBF92158380900AC9DDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8245CC002158382300AC9DDD /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		8245CC022158383900AC9DDD /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		8245CC032158384F00AC9DDD /* FractionCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractionCalculator.m; sourceTree = "<group>"; };
+		8245CC052158386100AC9DDD /* FractionCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractionCalculator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		8245CBF82158380900AC9DDD /* FractionCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				8245CC002158382300AC9DDD /* Fraction.m */,
 				8245CBF92158380900AC9DDD /* main.m */,
+				8245CC022158383900AC9DDD /* Fraction.h */,
+				8245CC032158384F00AC9DDD /* FractionCalculator.m */,
+				8245CC052158386100AC9DDD /* FractionCalculator.h */,
 			);
 			path = FractionCalculator;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8245CBFA2158380900AC9DDD /* main.m in Sources */,
+				8245CC012158382300AC9DDD /* Fraction.m in Sources */,
+				8245CC042158384F00AC9DDD /* FractionCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
