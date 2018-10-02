@@ -9,5 +9,15 @@
 #ifndef FractionCalculator_h
 #define FractionCalculator_h
 
+#import "Fraction.h"
+@interface FractionCalculator: NSObject
 
+@property Fraction *storedFraction;
+@property Fraction *nextFraction;
+
+-(void) add : (bool) isSubtraction;
+-(void) inputFraction;
+-(void) saveFirstFraction;
+-(void) multiply : (bool) isDivision;
+@end
 #endif /* FractionCalculator_h */
